@@ -1,0 +1,3 @@
+#!/bin/sh
+
+curl "localhost:8080/search?arista=true" | jq
